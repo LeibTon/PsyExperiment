@@ -1,0 +1,42 @@
+version: 2.6.1
+server-time: 2020-04-17-05-50
+user_agent: mozilla/5.0 (x11; linux x86_64; rv:68.0) gecko/20100101 firefox/68.0
+screen_width: 1920
+screen_height: 1080
+html_width: 1906
+html_height: 887
+user_time: Fri, 17 Apr 2020 13:20:01 GMT
+T: 27588
+l: name
+stime: 2020-04-17-05-50
+T: 25953
+t: textline
+a: Bidhan Arya
+l: roll
+stime: 2020-04-17-05-50
+T: 9002
+t: textline
+a: 190238
+l: email
+stime: 2020-04-17-05-51
+T: 19863
+t: textline
+a: bidhanar@iitk.ac.in
+l: exp_type_1
+stime: 2020-04-17-05-55
+T: 256275
+t: experiment
+l: exp_type_2
+stime: 2020-04-17-05-59
+T: 237924
+t: experiment
+l: exp_type_3
+stime: 2020-04-17-06-04
+T: 273715
+t: experiment
+l: exp_type_4
+stime: 2020-04-17-06-08
+T: 230518
+t: experiment
+endcode: 39EvVXZn
+end 2020-04-17-06-08

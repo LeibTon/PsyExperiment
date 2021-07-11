@@ -1,0 +1,24 @@
+version: 2.6.1
+server-time: 2020-04-16-14-27
+user_agent: mozilla/5.0 (linux; android 9; sm-a205f) applewebkit/537.36 (khtml, like gecko) chrome/81.0.4044.96 mobile safari/537.36
+screen_width: 412
+screen_height: 892
+html_width: 412
+html_height: 1196
+user_time: Thu, 16 Apr 2020 12:27:23 GMT
+T: 3119
+l: name
+stime: 2020-04-16-14-27
+T: 3903
+t: textline
+a: t ycyc
+l: roll
+stime: 2020-04-16-14-27
+T: 2646
+t: textline
+a: gvyycyc
+l: email
+stime: 2020-04-16-14-27
+T: 1983
+t: textline
+a: vuvu

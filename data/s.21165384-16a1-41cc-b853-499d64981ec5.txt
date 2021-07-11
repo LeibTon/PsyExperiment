@@ -1,0 +1,24 @@
+version: 2.6.1
+server-time: 2020-04-17-06-52
+user_agent: mozilla/5.0 (linux; android 10; oneplus a6000) applewebkit/537.36 (khtml, like gecko) chrome/81.0.4044.111 mobile safari/537.36
+screen_width: 455
+screen_height: 960
+html_width: 455
+html_height: 1047
+user_time: Fri, 17 Apr 2020 04:51:56 GMT
+T: 4248
+l: name
+stime: 2020-04-17-06-52
+T: 5427
+t: textline
+a: Lochan
+l: roll
+stime: 2020-04-17-06-52
+T: 5971
+t: textline
+a: 190458
+l: email
+stime: 2020-04-17-06-52
+T: 7034
+t: textline
+a: lochankr@iitk.ac

@@ -1,0 +1,9 @@
+version: 2.6.1
+server-time: 2020-04-16-13-59
+user_agent: mozilla/5.0 (x11; ubuntu; linux x86_64; rv:75.0) gecko/20100101 firefox/75.0
+screen_width: 1366
+screen_height: 768
+html_width: 1287
+html_height: 886
+user_time: Thu, 16 Apr 2020 11:59:56 GMT
+T: 14399

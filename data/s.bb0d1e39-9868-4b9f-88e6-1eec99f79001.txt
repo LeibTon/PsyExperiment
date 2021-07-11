@@ -1,0 +1,28 @@
+version: 2.6.1
+server-time: 2020-04-16-14-37
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/80.0.3987.163 safari/537.36
+screen_width: 1536
+screen_height: 864
+html_width: 1519
+html_height: 871
+user_time: Thu, 16 Apr 2020 12:37:49 GMT
+T: 14721
+l: name
+stime: 2020-04-16-14-38
+T: 12039
+t: textline
+a: Vijay Kumar Maurya
+l: roll
+stime: 2020-04-16-14-38
+T: 10592
+t: textline
+a: 190963
+l: email
+stime: 2020-04-16-14-38
+T: 13522
+t: textline
+a: vijaykm@iitk.ac.in
+l: exp_type_1
+stime: 2020-04-16-14-45
+T: 354485
+t: experiment

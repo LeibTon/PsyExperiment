@@ -1,0 +1,109 @@
+options
+  fullscreen
+
+bitmaps
+  instructionellipse
+  circle
+  ellipse1
+  ellipse2
+  ellipse3
+  ellipse4
+  ellipse5
+  ellipse6
+  ellipse8
+  ellipse9
+  ellipse10
+  ellipsev
+  ellipseh
+  empty
+  mask1
+  mask2
+  fixpoint
+  frame
+  therewasnone
+  toolate
+
+table random_item 
+  include table.txt
+
+task search
+  table random_item
+  keys space
+  show bitmap fixpoint # 1
+  delay 200
+  clear 1
+  delay 500
+  draw off
+    show bitmap @2 @3 @4 # 2
+    show bitmap @5 @6 @7 # 3
+    show bitmap @8 @9 @10 # 4
+    show bitmap @11 @12 @13 # 5
+    show bitmap @14 @15 @16 # 6
+    show bitmap @17 @18 @19 # 7
+    show bitmap @20 @21 @22 # 8
+    show bitmap @23 @24 @25 # 9
+    show bitmap @26 @27 @28 # 10
+    show bitmap @29 @30 @31 # 11
+    show bitmap @32 @33 @34 # 12
+    show bitmap @35 @36 @37 # 13
+    show bitmap @38 @39 @40 # 14
+    show bitmap @41 @42 @43 # 15
+    show bitmap @44 @45 @46 # 16
+    show bitmap @47 @48 @49 # 17
+    show bitmap @50 @51 @52 # 18
+    show bitmap @53 @54 @55 # 19
+    show bitmap @56 @57 @58 # 20
+    show bitmap @59 @60 @61 # 21
+    show bitmap @62 @63 @64 # 22
+    show bitmap @65 @66 @67 # 23
+    show bitmap @68 @69 @70 # 24
+    show bitmap @71 @72 @73 # 25
+    show bitmap @74 @75 @75 # 26
+  draw on
+  readkey 1 4000
+  set &x 0 # this means, there was no error
+  if STATUS == CORRECT # means space pressed, might be incorrect though
+    if @2 != ellipsev && @2 != ellipseh && @2 != ellipse1 && @2 != ellipse2 && @2 != ellipse3 && @2 != ellipse4 && @2 != ellipse5 && @2 != ellipse6 && @2 != ellipse8 && @2 != ellipse9 && @2 != ellipse10 # there was none
+      show bitmap therewasnone 0 200 # 27
+      delay 2000
+      clear 22
+      delay 500
+      show bitmap mask1 # 28
+      delay 100
+      show bitmap mask2 # 29
+      delay 100
+      clear range 1 29
+      set &x 1
+    fi
+  fi
+  if STATUS == TIMEOUT # means space pressed, might be incorrect though
+    if @2 == ellipsev || @2 == ellipseh || @2 == ellipse1 || @2 == ellipse2 || @2 == ellipse3 || @2 == ellipse4 || @2 == ellipse5 || @2 == ellipse6 || @2 == ellipse8 || @2 == ellipse9 || @2 == ellipse10
+      show bitmap toolate 0 200 # 27
+      show bitmap frame  @3 @4  # 28
+      show bitmap @2 @3 @4  # 29
+      delay 2000
+      clear 27
+      delay 500
+      show bitmap mask1 # 30
+      delay 100
+      show bitmap mask2 # 31
+      delay 100
+      clear range 1 31
+      set &x 1
+    fi
+  fi
+  if &x == 0
+    show bitmap mask1 # 27
+    delay 100
+    show bitmap mask2 # 28
+    delay 100
+    clear range 1 28
+  fi
+  delay 1000
+  save BLOCKNAME @1 STATUS RT
+
+block block1
+  message instructionellipse
+  tasklist
+    search 60 all_before_repeat
+  end

@@ -1,0 +1,24 @@
+version: 2.6.1
+server-time: 2020-04-16-14-51
+user_agent: mozilla/5.0 (linux; android 9; samsung sm-a507fn) applewebkit/537.36 (khtml, like gecko) samsungbrowser/11.1 chrome/75.0.3770.143 mobile safari/537.36
+screen_width: 412
+screen_height: 892
+html_width: 412
+html_height: 1067
+user_time: Thu, 16 Apr 2020 12:51:28 GMT
+T: 35192
+l: name
+stime: 2020-04-16-14-51
+T: 8305
+t: textline
+a: P.Chaitanya 
+l: roll
+stime: 2020-04-16-14-51
+T: 8435
+t: textline
+a: 190245
+l: email
+stime: 2020-04-16-14-52
+T: 23953
+t: textline
+a: chaitu@iitk.ac.in 

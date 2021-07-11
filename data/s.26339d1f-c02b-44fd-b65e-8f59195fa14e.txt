@@ -1,0 +1,32 @@
+version: 2.6.1
+server-time: 2020-04-16-18-54
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/80.0.3987.132 safari/537.36
+screen_width: 1920
+screen_height: 1080
+html_width: 1920
+html_height: 868
+user_time: Thu, 16 Apr 2020 16:53:24 GMT
+T: 7572
+l: name
+stime: 2020-04-16-18-54
+T: 6463
+t: textline
+a: Rahul
+l: roll
+stime: 2020-04-16-18-54
+T: 10581
+t: textline
+a: 190663
+l: email
+stime: 2020-04-16-18-54
+T: 14081
+t: textline
+a: rahulgo@iitk.ac.in
+l: exp_type_1
+stime: 2020-04-16-18-59
+T: 271198
+t: experiment
+l: exp_type_2
+stime: 2020-04-16-19-03
+T: 252984
+t: experiment
